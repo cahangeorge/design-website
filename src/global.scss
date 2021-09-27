@@ -1,0 +1,9 @@
+$dark: #15023a;
+$light: #fff;
+$main: crimson;
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content
+    }
+}
